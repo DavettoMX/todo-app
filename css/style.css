@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+/* extras */
+.selected {
+    border-bottom : 2px solid rgb(3, 78, 240);
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: re;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topMenu li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.topMenu li:hover {
+    background-color: rgba(190, 188, 188, 0.137);
+}
+
+.topMenu li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.topMenu li a:hover {
+    color: #2007ff;
+}
+
+/* BARRA PARA AGREGAR TAREAS */
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 20px 0;
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.deleteBtn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deleteAll {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
